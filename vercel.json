@@ -1,8 +1,5 @@
 {
     "rewrites": [
-        {"source": "/", "destination": "https://turbo-test-2-docs.vercel.app/"},
-        {"source": "/web/", "destination": "https://turbo-test-2-web-vert.vercel.app/"},
-        {"source": "/web/:match*", "destination": "https://turbo-test-2-web-vert.vercel.app/:match*"},
-        {"source": "/:match*", "destination": "https://turbo-test-2-docs.vercel.app/:match*"}
+        {"source": "/", "destination": "https://turbo-test-2-docs.vercel.app/"}
     ]
   }
